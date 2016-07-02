@@ -45,6 +45,12 @@ group :development, :test do
 end
 
 gem 'devise', '>= 3.2.4'
+
+gem 'carrierwave'
+
+gem 'figaro'
+
+gem "fog"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
