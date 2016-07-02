@@ -41,6 +41,7 @@ gem 'simple_form'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem "factory_girl_rails", "~> 4.0"
 end
 
 gem 'devise', '>= 3.2.4'
